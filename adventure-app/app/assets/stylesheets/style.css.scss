@@ -1,0 +1,33 @@
+body {
+  font-family: Papyrus, fantasy;
+  color: #F0AD4E;
+  background-image: image-url("tex2res4.png");
+}
+
+h1 {
+  font-size: 54px;
+  text-align: center;
+}
+
+#welcome {
+  margin-top: 50px;
+}
+
+.btn-container {
+  padding-top: 230px;
+  width: 185px;
+  margin: auto;
+}
+
+#begin-btn {
+  padding: 20px;
+  font-size: 54px;
+}
+
+.puzzle {
+  display: none;
+}
+
+.win-message {
+  display: none;
+}

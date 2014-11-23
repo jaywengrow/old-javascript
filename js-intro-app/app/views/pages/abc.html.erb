@@ -1,0 +1,10 @@
+<h1>Do you know your ABCs..... in order?</h1>
+<h2 id="winning-message"></h2>
+
+<div id="abc-game">
+
+  <% @shuffled_letters.each do |letter| %>
+    <div class="box col-md-1" onclick="clickLetter(this)"><%= letter %></div>
+  <% end %>
+  
+</div>
